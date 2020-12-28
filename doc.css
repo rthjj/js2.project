@@ -1,0 +1,217 @@
+
+header{
+    display: grid;
+    margin: 10px;
+}
+.logo {
+    width: 300px;
+    margin-left: 1px;
+}
+nav{
+           margin-left: 10px;
+           margin-top: 10px;         
+ }
+.menu ul li {
+            list-style: none;
+            float: left;
+            margin-left: 50px;
+            position: relative;
+ }
+.menu ul ul {
+            position: absolute;
+            visibility: hidden;
+            display: block;
+           }
+.menu ul li:hover ul{
+            visibility: visible;
+            background-color: white;
+            box-shadow: 0px 1px 1px 3px rgb(201, 201, 201);
+        }
+  ul li a:hover {
+            color: rgb(53, 199, 155);
+        }
+ li a {
+            display: block;
+            color: rgb(160, 158, 158);
+            padding: 8px 15px;
+            text-align: start;
+            text-decoration: none;
+            white-space: nowrap;
+            font-family: sans-serif;
+            font-size: 15px; 
+            left: 100%;
+ }
+ .color li a:hover {
+            background-color: rgb(53, 199, 155);
+            color: white;
+ }
+ img {
+   text-align: center;
+   width: 40px;
+    }
+ 
+.title {
+    text-align: center;  
+    color: rgb(53, 199, 155);
+ }
+.text1 {
+    display: grid;
+    width: auto;
+    height: auto;
+    margin-left: 20%;
+    grid-template-rows: 120px 120px;
+    color:rgb(160, 158,158);
+  }
+
+  section{
+      display: flex;
+      width: auto;
+      height: auto;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      
+  }
+
+  .flex-container {
+    position: relative;
+    display: flex;
+    height: auto;
+    justify-content: center;
+  }
+  
+ .d-flex > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace; 
+  }
+  .style-select select {
+    width:100%;
+    color:white;
+    background:transparent;
+    text-decoration: underline;
+    border:0;
+    border-radius:0;
+    padding:0 3.5em 0 1.5em;
+    height:40px;
+    -webkit-appearance:none;
+    text-transform:uppercase;
+    outline:0
+   }
+  
+  /*------ logo*/
+   .brands h1 {
+    float:left;
+    font-size:2em;
+    margin-left: 100px;
+    font-family: monospace;
+    color: #00bfa5;
+    
+   }
+   .brands__logos {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    font-size:0;
+    width:67%;
+    list-style:none
+   }
+ 
+   .brands__logos li {
+    display:inline-block;
+    width:160px;
+    padding:5px 0
+   }
+ 
+   .brands__logos .clinicloud img,
+   .brands__logos .gipo img {
+    transition:all .2s ease 0s;
+    filter:invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    -webkit-filter:invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    opacity:.55
+   }
+   .brands__logos .clinicloud:hover img,
+   .brands__logos .gipo:hover img
+    {
+    filter:none;
+    opacity:1
+   }
+   .brands__logos .gipo {
+    width:85px
+   }
+   .brands__logos .clinicloud {
+    width:90px
+   }
+   .brands__logos .clinicloud img {
+    height:34px
+   }
+   .brands__logos a svg {
+    height:20px;
+    width:auto;
+    max-width:100%;
+    padding-left:10px
+   }
+   .brands__logos a path {
+    transition:all .2s ease 0s;
+    fill:hsla(0,0%,67%,.7)
+   }
+   .brands__logos a:hover path {
+    fill:#00bfa5
+   }
+.green{
+    background-color: rgb(190, 255, 225);
+    margin: 50px;
+    padding: 50px 50px;
+    text-align: center;
+}
+.green h1{
+    font-family: monospace;
+    color: rgb(133, 189, 189);
+    margin: 10px;
+}
+.green p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+.green h3{
+    font-family: monospace;
+    color: rgb(133, 189, 189);
+}
+.text2 {
+    padding: 50px 50px;
+    color: rgb(133, 189, 156);
+    font-family: monospace;
+}
+.text2 h1 {
+    font-size: 25px;
+}
+.text2 p{
+    color: gray;
+    font-size: medium;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 30px 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+footer{
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: center;  
+    color: grey;
+    border-top-style:ridge;
+}
+footer p{
+    margin-top: 20px;
+}
+
+   
+   
+  
+
+ 
